@@ -1,0 +1,29 @@
+import React , { useState }  from 'react'
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+
+
+function LoginNavBar() {
+
+    const [openLinks, setOpenLinks] = useState(false);
+    const toggleNavbar = () => {
+        setOpenLinks(!openLinks);
+      };
+    return (
+    <div className = "navbar">
+        <div className = "leftSide" id={openLinks ? "open" : "close"}>
+        <label className="title"><b>File Upload Application</b></label> 
+            <div className="hiddenLinks">
+            <Link to="/register"> Register </Link>
+            <Link to="/contact"> Contact Us </Link> 
+            </div>
+        </div>    
+        <div className = "rightSide">
+        <Link to="/register"> Register </Link>
+        <Link to="/contact"> Contact Us </Link> 
+        </div>    
+    </div>
+);
+}
+
+export default LoginNavBar;
