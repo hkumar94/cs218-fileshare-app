@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: dms-be
+spec:
+  selector:
+    app: dms-be
+  ports:
+    - port: 8081
+      targetPort: 8081
+  type: LoadBalancer
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dms-be
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dms-be
+  template:
+    metadata:
+      labels:
+        app: dms-be
+    spec:
+      containers:
+        - name: dms
+          image: 133765914972.dkr.ecr.us-west-2.amazonaws.com/dms-app:3
+          envFrom:
+          - configMapRef:
+              name: dms-config
+          ports:
+            - containerPort: 8081
+          imagePullPolicy: IfNotPresent
