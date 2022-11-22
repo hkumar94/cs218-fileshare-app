@@ -1,0 +1,181 @@
+
+
+.signUp-card {
+    height: 100vh;
+  }
+  
+.signUp-card {
+    padding-top: 10vh;
+    
+}
+  
+.alert {
+    margin-top: 10px;
+}
+  
+.signup-div{
+    margin-top: 40px;
+}
+
+.container {
+    margin-left: 1em;
+    max-width: 29em;
+    margin-top: 900em;
+    padding: 0em 3em 2em 3em;
+    margin: 2em auto;
+    background-color: #ffffff00;
+    border-radius: 3px * 1.4;
+    box-shadow: 0px 3px 10px -2px rgba(234, 238, 232, 0.877);
+    opacity: 100;
+}
+
+.container-file {
+  margin-left: 1em;
+  max-width: 40em;
+  margin-top: 900em;
+  padding: 0em 0em 0em 1em;
+  margin: 2em auto;
+  background-color: #ffffff00;
+  border-radius: 3px * 1.4;
+  box-shadow: 0px 3px 10px -2px rgba(234, 238, 232, 0.877);
+  opacity: 100;
+}
+
+h2 {
+
+  text-align:center;
+  font-size:39px;
+  color: #121312;
+}
+
+    
+.floatLabel{
+  top: -11px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  display: inline-block;
+}
+
+.input_field {
+  width: 200px;
+  height: 25px;
+}
+
+.btn-primary {
+  background: #080808;
+  color: #ffffff;
+  font-size: 14px;
+  width: 90%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: -40px;
+}
+
+.btn-upload {
+  background: #080808;
+  color: #ffffff;
+  font-size: 14px;
+  width: 32%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: -40px;
+}
+
+.btn-upload:hover{
+  background-color: #d89b3a;
+  color: rgb(233, 217, 127);
+
+}
+
+.btn-primary-dwnld {
+  background: #157904;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: -40px;
+  border-radius: 4px;
+}
+.btn-primary-del {
+  background: #be4b64;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: -40px;
+  border-radius: 4px;
+}
+
+.btn-primary-dwnld:hover {
+  background-color: #09679e;
+  color: white;
+}
+
+.btn-primary-del:hover {
+  background-color: #d89b3a;
+  color: white;
+}
+
+
+.backGroundLayer {
+  background-size: 100%;
+
+}
+
+.th {
+  letter-spacing: 1px;
+}
+
+.td {
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.tbody td {
+  text-align: center;
+}
+
+.tfoot th {
+  text-align: right;
+}
+
+hr {
+  height:5px;
+  border-width:0;
+  background-color:#0c6170;
+}
+
+.defaultTextBox{
+padding: 7px 10px;
+margin: 7px 0;
+box-sizing: border-box;
+}
+
+.btn-share{
+  background: #b96430;
+color: #ffffff;
+font-size: 13px;
+width: 18%;
+height: 44px;
+line-height: 39px;
+border-radius: 8px;
+}
+
+.btn-share:hover{
+  background-color: #503528;
+  color: white;
+}
+
+.browse-upload{
+  background-color: #6a6a6a;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+  
